@@ -18,6 +18,8 @@ Find the shortest path between two nodes in a weighted graph based on Dijkstra a
             C     8    E
 # Output
 
+# shortest path between A and F: 
+
 current node: A
 PriorityQueue: [(C,A,1), (B,A,5)]
 Parents: {A=null}
@@ -46,11 +48,10 @@ Parents: {A=null, B=C, C=A, D=B, E=D}
 
 Visited: [A, B, C, D, E]
 
+# shortest path between A and F: [A, C, B, D, F]
 <img width="464" alt="java 8 and prio java 8  array review example" src="https://github.com/JosephThachilGeorge/Shortest-distance-Dijkstra/blob/master/2.JPG">
 
-# shortest path between A and F: [A, C, B, D, F]
-
-#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------     
+--------------------------------------------------------------------------------------------------------------------------------------------------------------    
 
 current node: D
 PriorityQueue: [(B,D,1), (C,D,4), (E,D,3), (F,D,6)]
