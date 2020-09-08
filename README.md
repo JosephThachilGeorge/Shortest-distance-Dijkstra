@@ -4,7 +4,7 @@ Find the shortest path between two nodes in a weighted graph based on Dijkstra a
 
 # Test case -Input:
 
-![Test Image 1](1.png)
+
 
 
 
@@ -70,7 +70,7 @@ Parents: {B=D, C=B, D=null, E=D}
 Visited: [B, C, D, E]
 # shortest path between C and F: [C, B, D, F]
 
-![Test Image 1](1.png)
+
 
 
 current node: C
