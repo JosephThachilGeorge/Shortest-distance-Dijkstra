@@ -2,11 +2,9 @@
 
 Find the shortest path between two nodes in a weighted graph based on Dijkstra algorithm
 
-<img width="464" alt="java 8 and prio java 8  array review example" src="https://github.com/JosephThachilGeorge/Shortest-distance-Dijkstra/blob/master/1.JPG">
-
 # Test case -Input:
 
-
+<img width="464" alt="java 8 and prio java 8  array review example" src="https://github.com/JosephThachilGeorge/Shortest-distance-Dijkstra/blob/master/1.JPG">
 
 
 
