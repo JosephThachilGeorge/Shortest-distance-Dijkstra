@@ -2,7 +2,7 @@
 
 Find the shortest path between two nodes in a weighted graph based on Dijkstra algorithm
 
-test case
+# Test case -Input:
 
 
             B    1     D   6
@@ -13,13 +13,11 @@ test case
        1`-. | .'       |
            `.'---------+
             C     8    E
+# Output
 
 current node: A
-
 PriorityQueue: [(C,A,1), (B,A,5)]
-
 Parents: {A=null}
-
 Visited: [A]
 
 current node: C
