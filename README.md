@@ -13,6 +13,8 @@ test case
        1`-. | .'       |
            `.'---------+
             C     8    E
+
+
 shortest path between A and F: [A, C, B, D, F]
 
 shortest path between C and F: [C, B, D, F]
