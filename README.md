@@ -5,6 +5,9 @@ Find the shortest path between two nodes in a weighted graph based on Dijkstra a
 # Test case -Input:
 
 
+
+
+
             B    1     D   6
        5  .-+---------.'-------F
        .-'  |       .' |
