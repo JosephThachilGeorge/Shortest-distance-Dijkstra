@@ -70,7 +70,7 @@ Parents: {B=D, C=B, D=null, E=D}
 Visited: [B, C, D, E]
 # shortest path between C and F: [C, B, D, F]
 
-
+![Test Image 1](1.png)
 
 
 current node: C
