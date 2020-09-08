@@ -52,6 +52,7 @@ Visited: [A, B, C, D, E]
 <img width="464" alt="java 8 and prio java 8  array review example" src="https://github.com/JosephThachilGeorge/Shortest-distance-Dijkstra/blob/master/2.JPG">
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------    
+# shortest path between C and F:
 
 current node: D
 PriorityQueue: [(B,D,1), (C,D,4), (E,D,3), (F,D,6)]
