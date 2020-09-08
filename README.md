@@ -15,7 +15,9 @@ test case
             C     8    E
 
 current node: A
+
 PriorityQueue: [(C,A,1), (B,A,5)]
+
 Parents: {A=null}
 
 Visited: [A]
