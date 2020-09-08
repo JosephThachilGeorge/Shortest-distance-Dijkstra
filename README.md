@@ -45,6 +45,9 @@ PriorityQueue: [(A,B,8), (E,C,9), (C,D,8), (F,D,10), (C,E,15), (D,E,10)]
 Parents: {A=null, B=C, C=A, D=B, E=D}
 
 Visited: [A, B, C, D, E]
+
+<img width="464" alt="java 8 and prio java 8  array review example" src="https://github.com/JosephThachilGeorge/Shortest-distance-Dijkstra/blob/master/2.JPG">
+
 # shortest path between A and F: [A, C, B, D, F]
 
       
