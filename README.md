@@ -44,9 +44,7 @@ Parents: {A=null, B=C, C=A, D=B, E=D}
 Visited: [A, B, C, D, E]
 # shortest path between A and F: [A, C, B, D, F]
 
-
-
-
+      
 
 current node: D
 PriorityQueue: [(B,D,1), (C,D,4), (E,D,3), (F,D,6)]
