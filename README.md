@@ -2,6 +2,8 @@
 
 Find the shortest path between two nodes in a weighted graph based on Dijkstra algorithm
 
+<img src="./1.jpg">
+
 # Test case -Input:
 
 
