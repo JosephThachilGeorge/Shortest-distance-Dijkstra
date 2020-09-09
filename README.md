@@ -7,18 +7,9 @@ Find the shortest path between two nodes in a weighted graph based on Dijkstra a
 <img width="464" alt="java 8 and prio java 8  array review example" src="https://github.com/JosephThachilGeorge/Shortest-distance-Dijkstra/blob/master/1.JPG">
 
 
-
-            B    1     D   6
-       5  .-+---------.'-------F
-       .-'  |       .' |
-    A.'     |2    .'   |
-      `.    |   .'4    |3
-       1`-. | .'       |
-           `.'---------+
-            C     8    E
 # Output
 
-# shortest path between A and F: 
+# Shortest path between A and F: 
 
 current node: A
 PriorityQueue: [(C,A,1), (B,A,5)]
@@ -48,11 +39,11 @@ Parents: {A=null, B=C, C=A, D=B, E=D}
 
 Visited: [A, B, C, D, E]
 
-# shortest path between A and F: [A, C, B, D, F]
+# Shortest path between A and F: [A, C, B, D, F]
 <img width="464" alt="java 8 and prio java 8  array review example" src="https://github.com/JosephThachilGeorge/Shortest-distance-Dijkstra/blob/master/2.JPG">
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------    
-# shortest path between C and F:
+# Shortest path between C and F:
 
 current node: D
 PriorityQueue: [(B,D,1), (C,D,4), (E,D,3), (F,D,6)]
@@ -74,13 +65,13 @@ PriorityQueue: [(C,D,4), (A,C,4), (B,C,5), (A,B,6), (E,C,11), (F,D,6), (D,C,7), 
 Parents: {B=D, C=B, D=null, E=D}
 Visited: [B, C, D, E]
 
-# shortest path between C and F: [C, B, D, F]
+# Shortest path between C and F: [C, B, D, F]
 
 <img width="464" alt="java 8 and prio java 8  array review example" src="https://github.com/JosephThachilGeorge/Shortest-distance-Dijkstra/blob/master/3.JPG">
 
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------- 
-# shortest path between D and A:
+# Shortest path between D and A:
 
 current node: C
 PriorityQueue: [(A,C,1), (B,C,2), (D,C,4), (E,C,8)]
@@ -106,6 +97,6 @@ current node: E
 PriorityQueue: [(A,B,7), (E,C,8), (C,D,7), (F,D,9), (C,E,14), (D,E,9)]
 Parents: {A=C, B=C, C=null, D=B, E=D}
 Visited: [A, B, C, D, E]
-# shortest path between D and A: [D, B, C, A]
+# Shortest path between D and A: [D, B, C, A]
 
 <img width="464" alt="java 8 and prio java 8  array review example" src="https://github.com/JosephThachilGeorge/Shortest-distance-Dijkstra/blob/master/4.JPG">
