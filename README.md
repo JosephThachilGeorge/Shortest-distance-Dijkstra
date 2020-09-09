@@ -11,45 +11,45 @@ Find the shortest path between two nodes in a weighted graph based on Dijkstra a
 
 ### Shortest path between A and F: 
 
-current node: A
+*current node: A*
 
 PriorityQueue: [(C,A,1), (B,A,5)]
 
 Parents: {A=null}
 
-Visited: [A]
+**Visited: [A]**
 
-current node: C
+*current node: C*
 
 PriorityQueue: [(A,C,2), (B,A,5), (B,C,3), (D,C,5), (E,C,9)]
 
 Parents: {A=null, C=A}
 
-Visited: [A, C]
+**Visited: [A, C]**
 
-current node: B
+*current node: B*
 
 PriorityQueue: [(D,B,4), (B,A,5), (D,C,5), (A,B,8), (C,B,5), (E,C,9)]
 
 Parents: {A=null, B=C, C=A}
 
-Visited: [A, B, C]
+**Visited: [A, B, C]**
 
-current node: D
+*current node: D*
 
 PriorityQueue: [(B,A,5), (C,B,5), (D,C,5), (E,D,7), (E,C,9), (B,D,5), (C,D,8), (A,B,8), (F,D,10)]
 
 Parents: {A=null, B=C, C=A, D=B}
 
-Visited: [A, B, C, D]
+**Visited: [A, B, C, D]**
 
-current node: E
+*current node: E*
 
 PriorityQueue: [(A,B,8), (E,C,9), (C,D,8), (F,D,10), (C,E,15), (D,E,10)]
 
 Parents: {A=null, B=C, C=A, D=B, E=D}
 
-Visited: [A, B, C, D, E]
+**Visited: [A, B, C, D, E]**
 
 ### Shortest path between A and F: [A, C, B, D, F]
 <img width="464" alt="java 8 and prio java 8  array review example" src="https://github.com/JosephThachilGeorge/Shortest-distance-Dijkstra/blob/master/2.JPG">
