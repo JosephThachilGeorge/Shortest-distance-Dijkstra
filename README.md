@@ -97,30 +97,46 @@ Parents: {B=D, C=B, D=null, E=D}
 -------------------------------------------------------------------------------------------------------------------------------------------------------------- 
 ### Shortest path between D and A:
 
-current node: C
+*current node: C*
+
 PriorityQueue: [(A,C,1), (B,C,2), (D,C,4), (E,C,8)]
+
 Parents: {C=null}
-Visited: [C]
 
-current node: A
+**Visited: [C]**
+
+*current node: A*
+
 PriorityQueue: [(B,C,2), (C,A,2), (D,C,4), (E,C,8), (B,A,6)]
+
 Parents: {A=C, C=null}
-Visited: [A, C]
 
-current node: B
+**Visited: [A, C]**
+
+*current node: B*
+
 PriorityQueue: [(C,A,2), (B,A,6), (D,B,3), (E,C,8), (A,B,7), (C,B,4), (D,C,4)]
+
 Parents: {A=C, B=C, C=null}
-Visited: [A, B, C]
 
-current node: D
+**Visited: [A, B, C]**
+
+*current node: D*
+
 PriorityQueue: [(C,B,4), (B,A,6), (D,C,4), (E,D,6), (A,B,7), (B,D,4), (C,D,7), (E,C,8), (F,D,9)]
-Parents: {A=C, B=C, C=null, D=B}
-Visited: [A, B, C, D]
 
-current node: E
+Parents: {A=C, B=C, C=null, D=B}
+
+**Visited: [A, B, C, D]**
+
+*current node: E*
+
 PriorityQueue: [(A,B,7), (E,C,8), (C,D,7), (F,D,9), (C,E,14), (D,E,9)]
+
 Parents: {A=C, B=C, C=null, D=B, E=D}
-Visited: [A, B, C, D, E]
+
+**Visited: [A, B, C, D, E]**
+
 ### Shortest path between D and A: [D, B, C, A]
 
 <img width="464" alt="java 8 and prio java 8  array review example" src="https://github.com/JosephThachilGeorge/Shortest-distance-Dijkstra/blob/master/4.JPG">
