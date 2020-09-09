@@ -57,25 +57,37 @@ Parents: {A=null, B=C, C=A, D=B, E=D}
 --------------------------------------------------------------------------------------------------------------------------------------------------------------    
 ### Shortest path between C and F:
 
-current node: D
+*current node: D*
+
 PriorityQueue: [(B,D,1), (C,D,4), (E,D,3), (F,D,6)]
+
 Parents: {D=null}
-Visited: [D]
 
-current node: B
+**Visited: [D]**
+
+*current node: B*
+
 PriorityQueue: [(D,B,2), (C,B,3), (E,D,3), (A,B,6), (C,D,4), (F,D,6)]
+
 Parents: {B=D, D=null}
-Visited: [B, D]
 
-current node: C
+**Visited: [B, D]**
+
+*current node: C*
+
 PriorityQueue: [(E,D,3), (C,D,4), (B,C,5), (A,B,6), (A,C,4), (F,D,6), (D,C,7), (E,C,11)]
-Parents: {B=D, C=B, D=null}
-Visited: [B, C, D]
 
-current node: E
+Parents: {B=D, C=B, D=null}
+
+**Visited: [B, C, D]**
+
+*current node: E*
+
 PriorityQueue: [(C,D,4), (A,C,4), (B,C,5), (A,B,6), (E,C,11), (F,D,6), (D,C,7), (C,E,11), (D,E,6)]
+
 Parents: {B=D, C=B, D=null, E=D}
-Visited: [B, C, D, E]
+
+**Visited: [B, C, D, E]**
 
 ### Shortest path between C and F: [C, B, D, F]
 
